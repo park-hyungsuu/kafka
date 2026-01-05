@@ -8,3 +8,4 @@ CREATE TABLE `user` (
 COMMENT='사용자 테이블'
 COLLATE='utf8mb4_general_ci'
 ;
+
