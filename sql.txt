@@ -1,0 +1,10 @@
+CREATE TABLE `user` (
+	`user_id` VARCHAR(50) NOT NULL COMMENT '사용자 ID',
+	`user_passwd` VARCHAR(20) NOT NULL COMMENT '사용자 암호',
+	`user_auth` VARCHAR(10) NOT NULL COMMENT '사용자 권한',
+	`user_name` VARCHAR(20) NOT NULL COMMENT '사용자 이름',
+	`reg_date` DATETIME NOT NULL DEFAULT NOW() COMMENT '등록일'
+)
+COMMENT='사용자 테이블'
+COLLATE='utf8mb4_general_ci'
+;
